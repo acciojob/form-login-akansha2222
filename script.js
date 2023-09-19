@@ -1,8 +1,8 @@
-const fnme = document.getElementById("fname").value
-const lnme = document.getElementById("lname").value
 
 function getFormvalue() {
     //Write your code here
+	var fnme = document.getElementById("fname").value
+var lnme = document.getElementById("lname").value
 	alert(`${fnme} ${lnme}`)
 
 }
