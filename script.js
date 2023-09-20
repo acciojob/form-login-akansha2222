@@ -1,8 +1,5 @@
+const form = document.getElementById("form1");
 
 function getFormvalue(){
-    var fname = document.getElementById("fname").value
-    var lname = document.getElementById("lname").value
-
-    alert(`${fname} ${lname}`)
+    alert(form["fname"].value +" "+form["lname"].value);
 }
-
